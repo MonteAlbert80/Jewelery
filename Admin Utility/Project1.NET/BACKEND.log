@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "BACKEND.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "BACKEND"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "BACKEND.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "F:\My Development\Online Jewelry Shop\Admin Utility\BACKEND.VBP"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\backend.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\backend.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\e-option.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\e-option.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "Text3"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property Text3.MaxLength has a new behavior.</Issue>
+        </Section>
+        <Section Name = "Check1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Check1.CheckStateChanged may fire when form is intialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\vieworder.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\vieworder.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Form4.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\Form4.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\attach.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\attach.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\insert.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\insert.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\update.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\update.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\delete.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\delete.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\search.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\search.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\all.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\all.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\new.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\new.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Command3_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object num.</Issue>
+        </Section>
+        <Section Name = "Command4_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object num.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Modify.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\Modify.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object state.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\info.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\info.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object uid.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\login.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\login.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\pwd.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\pwd.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\owner_Set.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\owner_Set.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Own_id.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\Own_id.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\addressing.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\addressing.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object o.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Del_Items.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\Del_Items.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Command2_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object ic.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object nm.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cg.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object ds.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object pe.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object qty.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object main.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "F:\My Development\Online Jewelry Shop\Admin Utility\rlinks.frm"
+        NewPath = "F:\My Development\Online Jewelry Shop\Admin Utility\Project1.NET\rlinks.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Combo1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Combo1.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Option1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Option1.CheckedChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Option2_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Option2.CheckedChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Option3_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Option3.CheckedChanged may fire when form is intialized.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

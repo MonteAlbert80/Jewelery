@@ -1,0 +1,356 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{598255BE-C582-49DE-BC5F-A5022AA83DBB}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Project1"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Project1"
+                StartupObject = "Project1.Form14"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "Win32 = True"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "Win32 = True"
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility.Data"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility.Data"
+                />
+                <Reference
+                    Name = "ADODB"
+                    Guid = "{EF53050B-882E-4776-B643-EDA472E8E3F2}"
+                    VersionMajor = "2"
+                    VersionMinor = "7"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "ADOR"
+                    Guid = "{00000300-0000-0010-8000-00AA006D2EA4}"
+                    VersionMajor = "2"
+                    VersionMinor = "7"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "MSDATASRC"
+                    Guid = "{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "Microsoft.StdFormat"
+                    Guid = "{6B263850-900B-11D0-9484-00A0C91110ED}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "Microsoft.VisualBasic.Compatibility" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "_UpgradeReport.htm"
+                    SubType = "Preview"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "addressing.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "addressing.resX"
+                    DependentUpon = "addressing.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "all.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "all.resX"
+                    DependentUpon = "all.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "attach.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "attach.resX"
+                    DependentUpon = "attach.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "backend.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "backend.resX"
+                    DependentUpon = "backend.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Del_Items.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Del_Items.resX"
+                    DependentUpon = "Del_Items.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "delete.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "delete.resX"
+                    DependentUpon = "delete.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "e-option.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "e-option.resX"
+                    DependentUpon = "e-option.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Form4.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form4.resX"
+                    DependentUpon = "Form4.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "info.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "info.resX"
+                    DependentUpon = "info.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "insert.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "insert.resX"
+                    DependentUpon = "insert.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "login.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.resX"
+                    DependentUpon = "login.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modify.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modify.resX"
+                    DependentUpon = "Modify.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "new.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "new.resX"
+                    DependentUpon = "new.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Own_id.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Own_id.resX"
+                    DependentUpon = "Own_id.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "owner_Set.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "owner_Set.resX"
+                    DependentUpon = "owner_Set.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "pwd.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pwd.resX"
+                    DependentUpon = "pwd.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "rlinks.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rlinks.resX"
+                    DependentUpon = "rlinks.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "search.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "search.resX"
+                    DependentUpon = "search.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "update.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "update.resX"
+                    DependentUpon = "update.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "vieworder.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "vieworder.resX"
+                    DependentUpon = "vieworder.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
